@@ -1,21 +1,27 @@
-name: 'Standard'
-description: 'Provides a standard site with commonly used features pre-configured.'
+name: 'GT Standard'
+description: 'Provides a standard site with commonly used features pre-configured'
 type: 'Site'
+
 recipes:
   - basic_block_type
   - basic_shortcuts
   - page_content_type
-  - basic_html_format_editor
   - full_html_format_editor
+  - basic_html_format_editor
+  - restricted_html_format
   - content_search
   - core_recommended_performance
   - core_recommended_maintenance
-  - core_recommended_admin_theme
-  - core_recommended_front_end_theme
-  # Provides a fallback text format which is available to all users.
-  - restricted_html_format
   - administrator_role
   - content_editor_role
+  - tags_taxonomy
+  - standard_responsive_images
+  - audio_media_type
+  - document_media_type
+  - image_media_type
+  - local_video_media_type
+  - remote_video_media_type
+
 install:
   - image
   - help
@@ -24,19 +30,51 @@ install:
   - contextual
   - menu_link_content
   - datetime
+  - media
+  - media_library
   - menu_ui
   - options
   - toolbar
   - field_ui
   - views_ui
   - shortcut
+
+  - active_filters
+  - address
+  - allowed_formats
+  - better_exposed_filters
+  - config_ignore
+  - config_inspector
+  - ctools
+  - dotenv
+  - entity_browser
+  - field_group
+  - filter_perms
+  - fullcalendar_view
+  - group
+  - json_field
+  - key
+  - manage_display
+  - masquerade
+  - maxlength
+  - menu_link_attributes
+  - module_filter
+  - quick_node_clone
+  - security_review
+  - smart_date
+  - smart_trim
+  - token
+  - token_or
+  - twig_field_value
+  - twig_tweak
+  - views_data_export
+  - views_bulk_edit
+  - views_bulk_operations
+
 config:
   import:
-    claro:
-      - block.block.claro_help
     help:
       - search.page.help_search
-      - block.block.claro_help_search
     image:
       - image.style.large
       - image.style.thumbnail
@@ -46,19 +84,15 @@ config:
       - views.view.content_recent
       - views.view.frontpage
       - views.view.glossary
-    olivero:
-      - block.block.olivero_help
-      - block.block.olivero_search_form_narrow
-      - block.block.olivero_search_form_wide
-      - block.block.olivero_syndicate
     user:
       - core.entity_view_mode.user.compact
       - search.page.user_search
       - views.view.user_admin_people
+
   actions:
     node.settings:
       simpleConfigUpdate:
-        use_admin_theme: true
+        use_admin_theme: false
     system.site:
       simpleConfigUpdate:
         page.front: /node
@@ -73,7 +107,6 @@ config:
         - 'access contextual links'
         - 'access files overview'
         - 'access toolbar'
-        - 'administer url aliases'
         - 'create terms in tags'
         - 'create url aliases'
         - 'edit own comments'
