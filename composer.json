@@ -14,7 +14,7 @@
     "_comment": [
         "possibly later for easier customization drupal/site_settings ^2.0",
         "https://www.drupal.org/project/twig_casings",
-        "https://www.drupal.org/project/roleassign".
+        "https://www.drupal.org/project/roleassign",
         "https://www.drupal.org/project/easy_responsive_images",
         "Critical CSS Generator help: https://www.corewebvitals.io/tools/critical-css-generator"
     ],
