@@ -1,5 +1,5 @@
 {
-    "name": "gtsciences/gt-standard",
+    "name": "gtsciences/gt_standard",
     "description": "Drupal recipe for starting a Drupal project",
     "type": "drupal-recipe",
     "keywords": ["Drupal recipe", "recipe", "Site"],
