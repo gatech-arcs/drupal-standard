@@ -46,6 +46,7 @@
         "drupal/field_group": "^4.0",
         "drupal/filter_perms": "^2.0",
         "drupal/fullcalendar": "^3.0",
+        "drupal/fullcalendar_view": "^5.2",
         "drupal/group": "^3.3",
 
         "drupal/health_check": "^3.1",
