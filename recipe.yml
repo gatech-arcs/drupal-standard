@@ -23,7 +23,6 @@ recipes:
   - core/recipes/remote_video_media_type
 
 install:
-  - image
   - help
   - history
   - config
