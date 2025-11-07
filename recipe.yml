@@ -36,7 +36,7 @@ install:
   - field_ui
   - views_ui
   - shortcut
-  - editoria11y
+  
   - active_filters
   - address
   - allowed_formats
@@ -72,7 +72,6 @@ install:
 
 config:   
   import:
-    editoria11y: '*'
     help:
       - search.page.help_search
     image:
