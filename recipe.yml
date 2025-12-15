@@ -37,12 +37,10 @@ install:
   - views_ui
   - shortcut
 
-  - address
   - auto_anchors
   - back_to_top
   - better_exposed_filters
   - config_ignore
-  - config_inspector
   - csp
   - dotenv
   - entity_browser
