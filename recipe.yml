@@ -37,29 +37,24 @@ install:
   - views_ui
   - shortcut
 
-  - active_filters
   - address
-  - allowed_formats
   - auto_anchors
+  - back_to_top
   - better_exposed_filters
   - config_ignore
   - config_inspector
-  - ctools
+  - csp
   - dotenv
   - entity_browser
+  - fastly
   - field_group
   - filter_perms
   - fullcalendar_view
   - group
-  - json_field
-  - key
-  - manage_display
-  - masquerade
   - maxlength
   - menu_link_attributes
-  - module_filter
-  - quick_node_clone
   - security_review
+  - simplei
   - smart_date
   - smart_trim
   - token
