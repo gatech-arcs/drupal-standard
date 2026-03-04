@@ -28,32 +28,22 @@
         "    https://www.drupal.org/project/drupal/issues/3323007"
     ],
     "require": {
-        "drupal/dotenv": "^1.2",
-        "drupal/simplei": "^3.0",
-
-        "drupal/asset_injector": "^2.21",
         "drupal/auto_anchors": "^3.0@beta",
 
         "drupal/back_to_top": "^3.0",
         "drupal/better_exposed_filters": "^7.1",
         "drupal/block_class": "^4.0",
 
-        "drupal/config_ignore": "^3.3",
-        "drupal/csp": "^2.2",
         "drupal/entity_browser": "^2.13",
 
-        "drupal/fastly": "^4.0",
         "drupal/field_group": "^4.0",
-        "drupal/filter_perms": "^2.0",
         "drupal/fullcalendar": "^3.0",
         "drupal/fullcalendar_view": "^5.2",
         "drupal/group": "^3.3",
 
-        "drupal/health_check": "^3.1",
         "drupal/inline_block_title_automatic": "^2.0",
 
         "drupal/maxlength": "^3.1",
-        "drupal/menu_link_attributes": "^1.5",
         "drupal/override_node_options": "^2.9",
 
         "drupal/pathauto": "^1.13",
@@ -62,21 +52,14 @@
         "drupal/redirect": "^1.11",
         "drupal/redis": "^1.10",
 
-        "drupal/security_review": "^3.1",
-        "drupal/site_settings": "^2.0",
         "drupal/smart_date": "^4.2",
         "drupal/smart_trim": "^2.2",
         "drupal/subpathauto": "^1.4",
 
-        "drupal/token": "^1.15",
-        "drupal/token_or": "^2.3",
         "drupal/twig_casings": "^1.0",
         "drupal/twig_field_value": "^2.0",
         "drupal/twig_tweak": "^3.4",
 
-        "drupal/views_accordion": "^2.0",
-        "drupal/views_bulk_edit": "^3.0",
-        "drupal/views_bulk_operations": "^4.3",
-        "drupal/views_data_export": "^1.6"
+        "drupal/views_accordion": "^2.0"
     }
 }

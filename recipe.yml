@@ -40,9 +40,6 @@ install:
   - auto_anchors
   - back_to_top
   - better_exposed_filters
-  - config_ignore
-  - csp
-  - dotenv
   - entity_browser
   - fastly
   - field_group
@@ -50,18 +47,11 @@ install:
   - fullcalendar_view
   - group
   - maxlength
-  - menu_link_attributes
-  - security_review
-  - simplei
   - smart_date
   - smart_trim
-  - token
-  - token_or
   - twig_field_value
   - twig_tweak
-  - views_data_export
-  - views_bulk_edit
-  - views_bulk_operations
+  - views_accordion
 
 config:
   import:
